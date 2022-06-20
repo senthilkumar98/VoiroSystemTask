@@ -1,0 +1,688 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5233516E28603A3700FFFD93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5233516D28603A3700FFFD93 /* AppDelegate.swift */; };
+		5233517028603A3700FFFD93 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5233516F28603A3700FFFD93 /* SceneDelegate.swift */; };
+		5233517228603A3700FFFD93 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5233517128603A3700FFFD93 /* ViewController.swift */; };
+		5233517528603A3700FFFD93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5233517328603A3700FFFD93 /* Main.storyboard */; };
+		5233517828603A3700FFFD93 /* VoiroSystemTask.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5233517628603A3700FFFD93 /* VoiroSystemTask.xcdatamodeld */; };
+		5233517A28603A3900FFFD93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5233517928603A3900FFFD93 /* Assets.xcassets */; };
+		5233517D28603A3900FFFD93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5233517B28603A3900FFFD93 /* LaunchScreen.storyboard */; };
+		5233518828603A3A00FFFD93 /* VoiroSystemTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5233518728603A3A00FFFD93 /* VoiroSystemTaskTests.swift */; };
+		5233519228603A3A00FFFD93 /* VoiroSystemTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5233519128603A3A00FFFD93 /* VoiroSystemTaskUITests.swift */; };
+		5233519428603A3A00FFFD93 /* VoiroSystemTaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5233519328603A3A00FFFD93 /* VoiroSystemTaskUITestsLaunchTests.swift */; };
+		523351A228603AD200FFFD93 /* MovieResponseEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523351A128603AD200FFFD93 /* MovieResponseEntity.swift */; };
+		523351A528603F1400FFFD93 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523351A428603F1400FFFD93 /* WebService.swift */; };
+		523351A728603FBE00FFFD93 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523351A628603FBE00FFFD93 /* Constants.swift */; };
+		523351AD286041CF00FFFD93 /* MovieListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523351AB286041CF00FFFD93 /* MovieListTableViewCell.swift */; };
+		523351AE286041CF00FFFD93 /* MovieListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 523351AC286041CF00FFFD93 /* MovieListTableViewCell.xib */; };
+		523351B1286046C600FFFD93 /* CommonFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523351B0286046C600FFFD93 /* CommonFunction.swift */; };
+		523351B328604F5500FFFD93 /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523351B228604F5500FFFD93 /* MovieDetailsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5233518428603A3A00FFFD93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5233516228603A3600FFFD93 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5233516928603A3700FFFD93;
+			remoteInfo = VoiroSystemTask;
+		};
+		5233518E28603A3A00FFFD93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5233516228603A3600FFFD93 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5233516928603A3700FFFD93;
+			remoteInfo = VoiroSystemTask;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5233516A28603A3700FFFD93 /* VoiroSystemTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoiroSystemTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5233516D28603A3700FFFD93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5233516F28603A3700FFFD93 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5233517128603A3700FFFD93 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5233517428603A3700FFFD93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5233517728603A3700FFFD93 /* VoiroSystemTask.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VoiroSystemTask.xcdatamodel; sourceTree = "<group>"; };
+		5233517928603A3900FFFD93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5233517C28603A3900FFFD93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5233517E28603A3900FFFD93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5233518328603A3A00FFFD93 /* VoiroSystemTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoiroSystemTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5233518728603A3A00FFFD93 /* VoiroSystemTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiroSystemTaskTests.swift; sourceTree = "<group>"; };
+		5233518D28603A3A00FFFD93 /* VoiroSystemTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoiroSystemTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5233519128603A3A00FFFD93 /* VoiroSystemTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiroSystemTaskUITests.swift; sourceTree = "<group>"; };
+		5233519328603A3A00FFFD93 /* VoiroSystemTaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiroSystemTaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		523351A128603AD200FFFD93 /* MovieResponseEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieResponseEntity.swift; sourceTree = "<group>"; };
+		523351A428603F1400FFFD93 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		523351A628603FBE00FFFD93 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		523351AB286041CF00FFFD93 /* MovieListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListTableViewCell.swift; sourceTree = "<group>"; };
+		523351AC286041CF00FFFD93 /* MovieListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieListTableViewCell.xib; sourceTree = "<group>"; };
+		523351B0286046C600FFFD93 /* CommonFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonFunction.swift; sourceTree = "<group>"; };
+		523351B228604F5500FFFD93 /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5233516728603A3700FFFD93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5233518028603A3A00FFFD93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5233518A28603A3A00FFFD93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5233516128603A3600FFFD93 = {
+			isa = PBXGroup;
+			children = (
+				5233516C28603A3700FFFD93 /* VoiroSystemTask */,
+				5233518628603A3A00FFFD93 /* VoiroSystemTaskTests */,
+				5233519028603A3A00FFFD93 /* VoiroSystemTaskUITests */,
+				5233516B28603A3700FFFD93 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5233516B28603A3700FFFD93 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5233516A28603A3700FFFD93 /* VoiroSystemTask.app */,
+				5233518328603A3A00FFFD93 /* VoiroSystemTaskTests.xctest */,
+				5233518D28603A3A00FFFD93 /* VoiroSystemTaskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5233516C28603A3700FFFD93 /* VoiroSystemTask */ = {
+			isa = PBXGroup;
+			children = (
+				5233516D28603A3700FFFD93 /* AppDelegate.swift */,
+				5233516F28603A3700FFFD93 /* SceneDelegate.swift */,
+				523351A82860417300FFFD93 /* Controller */,
+				523351A328603EC600FFFD93 /* View Model */,
+				523351A028603AB000FFFD93 /* Model */,
+				523351AA2860418B00FFFD93 /* XIB */,
+				523351AF286046AD00FFFD93 /* Common */,
+				5233517328603A3700FFFD93 /* Main.storyboard */,
+				5233517928603A3900FFFD93 /* Assets.xcassets */,
+				5233517B28603A3900FFFD93 /* LaunchScreen.storyboard */,
+				5233517E28603A3900FFFD93 /* Info.plist */,
+				5233517628603A3700FFFD93 /* VoiroSystemTask.xcdatamodeld */,
+			);
+			path = VoiroSystemTask;
+			sourceTree = "<group>";
+		};
+		5233518628603A3A00FFFD93 /* VoiroSystemTaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				5233518728603A3A00FFFD93 /* VoiroSystemTaskTests.swift */,
+			);
+			path = VoiroSystemTaskTests;
+			sourceTree = "<group>";
+		};
+		5233519028603A3A00FFFD93 /* VoiroSystemTaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5233519128603A3A00FFFD93 /* VoiroSystemTaskUITests.swift */,
+				5233519328603A3A00FFFD93 /* VoiroSystemTaskUITestsLaunchTests.swift */,
+			);
+			path = VoiroSystemTaskUITests;
+			sourceTree = "<group>";
+		};
+		523351A028603AB000FFFD93 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				523351A128603AD200FFFD93 /* MovieResponseEntity.swift */,
+				523351A628603FBE00FFFD93 /* Constants.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		523351A328603EC600FFFD93 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				523351A428603F1400FFFD93 /* WebService.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		523351A82860417300FFFD93 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5233517128603A3700FFFD93 /* ViewController.swift */,
+				523351B228604F5500FFFD93 /* MovieDetailsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		523351AA2860418B00FFFD93 /* XIB */ = {
+			isa = PBXGroup;
+			children = (
+				523351AB286041CF00FFFD93 /* MovieListTableViewCell.swift */,
+				523351AC286041CF00FFFD93 /* MovieListTableViewCell.xib */,
+			);
+			path = XIB;
+			sourceTree = "<group>";
+		};
+		523351AF286046AD00FFFD93 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				523351B0286046C600FFFD93 /* CommonFunction.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5233516928603A3700FFFD93 /* VoiroSystemTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5233519728603A3A00FFFD93 /* Build configuration list for PBXNativeTarget "VoiroSystemTask" */;
+			buildPhases = (
+				5233516628603A3700FFFD93 /* Sources */,
+				5233516728603A3700FFFD93 /* Frameworks */,
+				5233516828603A3700FFFD93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VoiroSystemTask;
+			productName = VoiroSystemTask;
+			productReference = 5233516A28603A3700FFFD93 /* VoiroSystemTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5233518228603A3A00FFFD93 /* VoiroSystemTaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5233519A28603A3A00FFFD93 /* Build configuration list for PBXNativeTarget "VoiroSystemTaskTests" */;
+			buildPhases = (
+				5233517F28603A3A00FFFD93 /* Sources */,
+				5233518028603A3A00FFFD93 /* Frameworks */,
+				5233518128603A3A00FFFD93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5233518528603A3A00FFFD93 /* PBXTargetDependency */,
+			);
+			name = VoiroSystemTaskTests;
+			productName = VoiroSystemTaskTests;
+			productReference = 5233518328603A3A00FFFD93 /* VoiroSystemTaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5233518C28603A3A00FFFD93 /* VoiroSystemTaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5233519D28603A3A00FFFD93 /* Build configuration list for PBXNativeTarget "VoiroSystemTaskUITests" */;
+			buildPhases = (
+				5233518928603A3A00FFFD93 /* Sources */,
+				5233518A28603A3A00FFFD93 /* Frameworks */,
+				5233518B28603A3A00FFFD93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5233518F28603A3A00FFFD93 /* PBXTargetDependency */,
+			);
+			name = VoiroSystemTaskUITests;
+			productName = VoiroSystemTaskUITests;
+			productReference = 5233518D28603A3A00FFFD93 /* VoiroSystemTaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5233516228603A3600FFFD93 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					5233516928603A3700FFFD93 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					5233518228603A3A00FFFD93 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 5233516928603A3700FFFD93;
+					};
+					5233518C28603A3A00FFFD93 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 5233516928603A3700FFFD93;
+					};
+				};
+			};
+			buildConfigurationList = 5233516528603A3600FFFD93 /* Build configuration list for PBXProject "VoiroSystemTask" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5233516128603A3600FFFD93;
+			productRefGroup = 5233516B28603A3700FFFD93 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5233516928603A3700FFFD93 /* VoiroSystemTask */,
+				5233518228603A3A00FFFD93 /* VoiroSystemTaskTests */,
+				5233518C28603A3A00FFFD93 /* VoiroSystemTaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5233516828603A3700FFFD93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5233517D28603A3900FFFD93 /* LaunchScreen.storyboard in Resources */,
+				5233517A28603A3900FFFD93 /* Assets.xcassets in Resources */,
+				523351AE286041CF00FFFD93 /* MovieListTableViewCell.xib in Resources */,
+				5233517528603A3700FFFD93 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5233518128603A3A00FFFD93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5233518B28603A3A00FFFD93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5233516628603A3700FFFD93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				523351B328604F5500FFFD93 /* MovieDetailsViewController.swift in Sources */,
+				523351A528603F1400FFFD93 /* WebService.swift in Sources */,
+				523351B1286046C600FFFD93 /* CommonFunction.swift in Sources */,
+				5233517228603A3700FFFD93 /* ViewController.swift in Sources */,
+				5233516E28603A3700FFFD93 /* AppDelegate.swift in Sources */,
+				5233517028603A3700FFFD93 /* SceneDelegate.swift in Sources */,
+				523351A728603FBE00FFFD93 /* Constants.swift in Sources */,
+				5233517828603A3700FFFD93 /* VoiroSystemTask.xcdatamodeld in Sources */,
+				523351AD286041CF00FFFD93 /* MovieListTableViewCell.swift in Sources */,
+				523351A228603AD200FFFD93 /* MovieResponseEntity.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5233517F28603A3A00FFFD93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5233518828603A3A00FFFD93 /* VoiroSystemTaskTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5233518928603A3A00FFFD93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5233519428603A3A00FFFD93 /* VoiroSystemTaskUITestsLaunchTests.swift in Sources */,
+				5233519228603A3A00FFFD93 /* VoiroSystemTaskUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5233518528603A3A00FFFD93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5233516928603A3700FFFD93 /* VoiroSystemTask */;
+			targetProxy = 5233518428603A3A00FFFD93 /* PBXContainerItemProxy */;
+		};
+		5233518F28603A3A00FFFD93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5233516928603A3700FFFD93 /* VoiroSystemTask */;
+			targetProxy = 5233518E28603A3A00FFFD93 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5233517328603A3700FFFD93 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5233517428603A3700FFFD93 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5233517B28603A3900FFFD93 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5233517C28603A3900FFFD93 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5233519528603A3A00FFFD93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5233519628603A3A00FFFD93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5233519828603A3A00FFFD93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VoiroSystemTask/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.voirosystemtask.com.VoiroSystemTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5233519928603A3A00FFFD93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VoiroSystemTask/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.voirosystemtask.com.VoiroSystemTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5233519B28603A3A00FFFD93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.voirosystemtask.com.VoiroSystemTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VoiroSystemTask.app/VoiroSystemTask";
+			};
+			name = Debug;
+		};
+		5233519C28603A3A00FFFD93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.voirosystemtask.com.VoiroSystemTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VoiroSystemTask.app/VoiroSystemTask";
+			};
+			name = Release;
+		};
+		5233519E28603A3A00FFFD93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.voirosystemtask.com.VoiroSystemTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VoiroSystemTask;
+			};
+			name = Debug;
+		};
+		5233519F28603A3A00FFFD93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.voirosystemtask.com.VoiroSystemTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VoiroSystemTask;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5233516528603A3600FFFD93 /* Build configuration list for PBXProject "VoiroSystemTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5233519528603A3A00FFFD93 /* Debug */,
+				5233519628603A3A00FFFD93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5233519728603A3A00FFFD93 /* Build configuration list for PBXNativeTarget "VoiroSystemTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5233519828603A3A00FFFD93 /* Debug */,
+				5233519928603A3A00FFFD93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5233519A28603A3A00FFFD93 /* Build configuration list for PBXNativeTarget "VoiroSystemTaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5233519B28603A3A00FFFD93 /* Debug */,
+				5233519C28603A3A00FFFD93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5233519D28603A3A00FFFD93 /* Build configuration list for PBXNativeTarget "VoiroSystemTaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5233519E28603A3A00FFFD93 /* Debug */,
+				5233519F28603A3A00FFFD93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5233517628603A3700FFFD93 /* VoiroSystemTask.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5233517728603A3700FFFD93 /* VoiroSystemTask.xcdatamodel */,
+			);
+			currentVersion = 5233517728603A3700FFFD93 /* VoiroSystemTask.xcdatamodel */;
+			path = VoiroSystemTask.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5233516228603A3600FFFD93 /* Project object */;
+}
